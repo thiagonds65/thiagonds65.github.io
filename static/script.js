@@ -1,14 +1,14 @@
 // Fazer com funções:
 
-// $(document).ready(function(){
-// 	$('#nav-icon1').click(function(){
-// 		$(this).toggleClass('open');
-//         $('body').toggleClass('menu-nav-active');
-// 	});
-// 	// hide section#inicio
-// 	$('section#inicio h2').css('display', 'none');
-// 	$('section#inicio span').css('display', 'none');
-// });
+$(document).ready(function(){
+	$('#nav-icon1').click(function(){
+		$(this).toggleClass('open');
+        $('body').toggleClass('menu-nav-active');
+	});
+	// hide section#inicio
+	$('section#inicio h2').css('display', 'none');
+	$('section#inicio span').css('display', 'none');
+});
 
 // Abre e fecha menu no mobile
 
